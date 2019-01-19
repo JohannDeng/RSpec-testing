@@ -8,6 +8,7 @@ describe "create and edit blog", type: :feature do
     #Open the homepage of blog
     visit('http://localhost:3000/articles') 
   end
+  
   #This is test case for creating blog
   it "creates a new blog" do
       click_link 'New Article' #Click button to create a new blog
